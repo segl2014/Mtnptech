@@ -1,0 +1,86 @@
+#div1 {
+	background-color : lightgray;;
+}
+
+#div2 {
+	background-color: black;
+	color: gold;
+}
+
+#div3 {
+	background-color: lightslategray;
+	color: black;
+}
+
+#div4 {
+	background-color: lavender;;
+    color: black;
+}
+
+#div5 {
+	width: 100%;
+	margin-top: 3%;
+}
+
+#td1 {
+	background-color: maroon;
+}
+
+#td2 {
+	width: 30%;
+	padding-left: 1%;
+}
+
+#td3 {
+	width: 15%;
+	padding-left: 1%;
+
+}
+
+#td3 {
+	width: 15%;
+	padding-left: 1%;
+
+}
+
+#td4 {
+	width: 15%;
+}
+
+#td5 {
+	width: 21%;
+}
+
+#b1 {
+	color: dimgray;
+	margin-left: 30px;
+
+}
+
+#select1 {
+	margin-left: 30px;
+	width: 100%;
+}
+
+#select2 {
+    width: 100%;
+}
+
+#h3 {
+	color: white;
+	font-style: normal;
+}
+
+#p {
+	color: white;
+}
+
+#marquee1 {
+	background-color: ghostwhite;
+}
+
+#body1 {
+	background-color: snow;
+}
+
+<!---------- end ------------->

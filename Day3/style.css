@@ -1,0 +1,75 @@
+
+#myh1 {
+  background-color: black;
+  color: white;
+  height: px;
+  padding-top: ;
+  padding-left: 15px;
+  border-radius: 5px;
+  margin-top: 5px;
+  hyphens: auto;
+}
+
+h3 {
+  color: revert;
+}
+
+div {
+   background-color: blue;
+   color: white;
+   width: 50%;
+   padding-top: 50px;
+   padding-bottom: 5%;
+   border-radius: 15px;
+   margin-right: 60px;
+   width: 50%;
+}
+
+#homediv {
+     background-color: blue;
+     height: 1px;
+     padding-top: 1%;
+     width: 100%;
+}
+
+#homea {
+    color: white;
+    font-size: 18px;
+    margin-left: 40px;
+}
+
+a  {
+  color: white;
+}
+
+#mya {
+   color: blue;
+}
+
+#tbl{
+   width: 15%;
+   float: "right";
+}
+
+header {
+     height: 2%;
+     width: 100%;
+}
+
+body {
+  background-color: white;
+}
+
+<!---------- Classes------------->
+
+.p {
+    color: currentColor;
+    font-size: 98%;
+}
+
+.li {
+    color: currentColor;
+    font-size: 98%;
+}
+
+ 
