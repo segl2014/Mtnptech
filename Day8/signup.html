@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-------------------------------Head  ----------------------------------->
+<head>
+  <title>Signup</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <style>
+    #div1 {
+      background-color: indigo;
+      color: white;
+      margin-top: 6px;
+    }
+
+    #div2 {
+      background-color: blue;
+      color: white;
+    }
+
+    #div3 {
+      background-color: darkblue;
+      color: white;
+      margin-top: 1%;
+      margin-bottom: 2%;
+    }
+
+    #div4 {
+      background-color: ;
+      color: unset;
+      width: 90%;
+    }
+    
+    h2 {
+    color:  indigo;;
+    }
+
+    body{
+      background-color: ;
+    }
+  </style>
+</head>
+
+<!-------------------------------Header  ----------------------------------->
+<header>
+  <div id="div1">
+     <table>
+       <tr>
+         <td><img src="C:\xampp\htdocs\Mtnptech\Day8\logoimg1.jpg" alt="" width="100" height="30"></td>
+         <td><h4> SBI  </h4> </tr>
+        </tr>
+      </table>
+  </div>
+
+  <div id= "div2">
+      <table>  
+            <tr>
+              <td><img src="C:\xampp\htdocs\Mtnptech\Day8\logoimg2.jpg" alt="" width="150" height="70"></td>
+              <td><h4> State Bank of India  </h4> </tr>  
+            </tr> 
+      </table>
+  </div>
+  
+  <div id= "div3">
+    <table>  
+          <tr>
+            <td><h4> SBI Online </h4></td>  
+          </tr> 
+    </table>
+</div>
+
+</header>
+
+<!-------------------------------Body  ----------------------------------->
+<body>
+  <div class="container">
+    <div class="login-area overflow-hidden  position-relative">
+      <div class="alert alert-warning">Warning!  A problem has been occurred while submitting your data.</div>
+      <div class="alert alert-success">Success! Your message has been sent successfully.. </div>
+      <div id="div4"> 
+      <div class="row">
+          <div class="col-sm-4"> 
+            <h2>User SignUp </h2>
+            <form action="" method="post" role="form" id="register_form"  > 
+      
+            <div class="form-group">
+              <label for="username">User Name:</label>
+              <input type="text" class="form-control" id="username" placeholder="Enter Your User Name" name="">
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter  Your Email" name="">
+            </div>
+            <div class="form-group">
+              <label for="password">Password:</label>
+              <input type="password" class="form-control" id="password" placeholder="Enter Your Password" name="">
+            </div>
+            <div class="form-group">
+              <label for="cpassword"> Retype Password:</label>
+              <input type="password" class="form-control" id="cpassword" placeholder="Enter Your Retype password" name="">
+            </div>
+            <div class="form-group form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" name="remember"><b> Accept the terms and policies </b>
+              </label>
+            </div>
+            <button type="submit" name="user_submit" class="btn btn-primary">SIGN UP</button>
+            <center><p> Already have an Account? </p>
+            <button type="submit" class="btn btn-primary">SIGN IN </button></center>  
+          </form>
+        </div>  
+        </div>
+      </div>
+</body>
+</html>
+<!-------------------------------End ----------------------------------->
