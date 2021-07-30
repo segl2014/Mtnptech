@@ -1,0 +1,64 @@
+/* nav bar */
+.nav {
+    background-color: black;
+    height: 100%;
+    color: white;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    
+}
+.nav .navbar-brand a {
+    text-decoration: none;
+    color: blue;
+}
+
+.nav-link {
+    padding-left: 1%;
+}
+
+.nav-link:hover {
+     color:orange;
+}
+
+.nav a {
+    font-size: 18px;
+    color: pink;
+}
+
+.nav a:hover {
+    color:green;
+}
+
+.h2 {
+    color: white;
+    padding-left: 3%;
+    padding-top: 2%;
+}
+
+.card i{
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+.button :btn btn-outline-info {
+    width: 100%;
+}
+
+.container { 
+    background-color: rgb(11, 11, 73);
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+/* id */
+#div1 {
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+#a1 {
+    color: lightskyblue;
+}
