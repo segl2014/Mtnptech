@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-------------------------------Head  ----------------------------------->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <title>Signup</title>
+  <link rel="stylesheet" href="C:\xampp\htdocs\Mtnptech\Day11\Assets\style.css">
+  <link ref="stylesheet" href="C:\xampp\htdocs\Mtnptech\Day11\Assets\bootstrap.css">
+  
+  <!-------------------------- Fontawesome Icon --------------------------------->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+
+</head>
+<!------------------------------- End Head  ----------------------------------->
+
+<!-------------------------------Header  ----------------------------------->
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <div class="header-div1">
+        <div class="navbar-brand">
+            <a href=""><img src= "C:\xampp\htdocs\Mtnptech\Day11\images\img23.jpg" alt="Logo"></a>
+            <a href="" id="h4"><h4> Art & Culture of Madhya Pradesh </h4></a>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-target="#mynav" data-bs-toggle="collapse">
+        <span class="navbar-toggler-icon"></span>   
+        </button> 
+        <div class="collapse navbar-collapse" id="mynav">
+            <div class="navbar-nav ms-auto">       
+              
+                <i class="fas fa-user" ></i> 
+                <a href="file:///C:/xampp/htdocs/Mtnptech/Day11/signin.html " id="fas-fa-user"><strong> SignIn </strong></a>
+                <i class="fas fa-user" ></i>
+                <a href="file:///C:/xampp/htdocs/Mtnptech/Day11/signup.html" ><strong> SignUp </strong></a>
+
+            </div>    
+        </div>
+    </div>        
+  </nav>
+
+  <div class= "header-div2">
+    <div class="navbar-brand">
+        <a href="file:///C:/xampp/htdocs/Mtnptech/Day11/index.html" id="navbar-brand-a1">Welcome</a>
+    </div>
+  </div>
+
+</header>
+<!------------------------------ End Header ------------------------------>
+
+<!-------------------------------Body  ----------------------------------->
+<body>
+  <div class="container">
+    <div class="login-area overflow-hidden  position-relative">
+      <div class="alert alert-warning">Warning!  A problem has been occurred while submitting your data.</div>
+      <div class="alert alert-success">Success! Your message has been sent successfully.. </div>
+      <div id="signup-form-div1"> 
+      <div class="row">
+          <div class="col-sm-4"> 
+            <h2>User SignUp </h2>
+            <form action="" method="post" role="form" id="register_form"  > 
+      
+            <div class="form-group">
+              <label for="username">User Name:</label>
+              <input type="text" class="form-control" id="username" placeholder="Enter Your User Name" name="">
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter  Your Email" name="">
+            </div>
+            <div class="form-group">
+              <label for="password">Password:</label>
+              <input type="password" class="form-control" id="password" placeholder="Enter Your Password" name="">
+            </div>
+            <div class="form-group">
+              <label for="cpassword"> Retype Password:</label>
+              <input type="password" class="form-control" id="cpassword" placeholder="Enter Your Retype password" name="">
+            </div>
+            <div class="form-group form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" name="remember"><b> Accept the terms and policies </b>
+              </label>
+            </div>
+            <button type="submit" name="user_submit" class="btn btn-primary">SIGN UP</button>
+            <center><p> Already have an Account? </p>
+            <button type="submit" class="btn btn-primary">SIGN IN </button></center>  
+          </form>
+        </div>  
+        </div>
+      </div>
+      
+</body>
+</html>
+<!-------------------------------End ----------------------------------->
