@@ -1,0 +1,54 @@
+<!------------- 2. Write a program to Find Largest Number among three numbers ---------------->
+<!DOCTYPE html>
+<html lang="eg">
+    <!----------------------------------- Head Section --------------------------------------->
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Conpatiblr" content="IE-edge">
+        <meta name= "viewport" content="width=device-width, initial-scale= 1.0"> 
+        <title> Largest-Number </title>
+            <!---------------------  Javascript in Head Section ------------------------------> 
+            <script type="text/javascript"> 
+
+                function largest()
+                {
+                    var num1, num2, num3;
+                    num1 = Number(document.getElementById("input1").value);
+                    num2 = Number(document.getElementById("input2").value);
+                    num3 = Number(document.getElementById("input3").value);
+
+                    if (num1 >= num2) {
+                        if (num1 >= num3){
+                            window.alert(num1+"- First number is greater");
+                        }
+                        else {
+                            window.alert(num3+"- Thrid number is greater");
+                        }    
+                    }
+                    else {
+                        if (num2 >= num3) {
+                            window.alert(num2+"- Second number is greater");
+                        }
+                        else {
+                            window.alert(num3+"- Thrid number is greater");
+                        }
+                    }
+                }     
+            </script>
+            <!--------------------- End javascript in Head Section -----------------------------> 
+    </head>
+    <!-----------------------------------  End Head Section ------------------------------------->
+    <body>
+    <!-----------------------------------  Body Section ------------------------------------->  
+        <h2>Calculate largest among three numbers</h2> <br>
+        <input type= "number" id="input1" onkeyup="showDate()" placeholder=" Enter the first number">
+        <br>
+        <input type= "number" id="input2" onkeyup="showDate()" placeholder=" Enter the second number">
+        <br>
+        <input type= "number" id="input3" onkeyup="showDate()" placeholder=" Enter the thrid number">
+
+        <button onclick="largest()">OK</button>
+    </body>
+    <!-----------------------------------  End Body Section ---------------------------------------->
+</html>
+<!------------------------------------------  End  ---------------------------------------------->

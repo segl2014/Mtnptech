@@ -1,0 +1,33 @@
+<!------------------- 8.    Write a program to find the square input length of one side. -------------------->
+<!DOCTYPE html>
+<html lang="eg">
+     <!----------------------------------- Head Section --------------------------------------->
+     <head>
+         <meta charset="UTF-8">
+         <meta http-equiv="X-UA-Conpatiblr" content="IE-edge">
+         <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+         <title> Square-Input-Length </title>
+         <h2> Square-Input-Length </h2>
+         <!---------------------  Javascript in Head Section ------------------------------> 
+         <script type="text/javascript">
+ 
+            function square()
+            {
+                var  Area, squareLength;                                                 
+                squareLength = Number(document.getElementById("input1").value);
+                
+                 (Area = squareLength * squareLength )
+                                window.alert(Area+ " Area of square is: ");
+                    
+            }
+        </script>
+        <!--------------------- End Javascript in Head Section ---------------------------->  
+    </head>
+    <!--------------------------------- End Head Section ---------------------------------------> 
+    <body>
+        <label> Please Enter any number </label> 
+        <input type= "number" id="input1"  onkeyup= "showDate()" placeholder=" Enter length of square: ">
+
+        <button onclick= " square() ">OK</button>   
+    </body>
+</html>          

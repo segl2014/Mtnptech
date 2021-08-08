@@ -1,0 +1,31 @@
+<!-------------   7. Write a program to find the area of a circle. Input is the radius.  --------->
+<!DOCTYPE html>
+<html lang="eg">
+    <!----------------------------------- Head Section --------------------------------------->
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Conpatiblr" content="IE-edge" >
+        <meta name="viewport" content="width=device-width, initial-scale= 1.0" >
+        <title> Area-Of-Circle </title>
+        <h2> Area of Circle </h2>
+        <!---------------------  Javascript in Head Section ------------------------------> 
+        <script type="text/javascript">
+            function calculateArea(myRadius) 
+            {
+                return (myRadius * myRadius * Math.PI);           // Math.PI = 3.14
+            }
+
+            function MyArea() {
+            var area = calculateArea(myRadius);
+            alert("A circle with a " + myRadius + " Centimeter radius has an area of " + area + " Centimeters. ");
+            }
+
+            var myRadius = parseFloat(prompt("Enter the radius of your circle in cm:", 0 ));
+            MyArea(myRadius);
+
+        </script>
+        <!--------------------- End Javascript in Head Section ----------------------------> 
+    </head> 
+    <!----------------------------------- Head Section --------------------------------------->  
+
+</html>       

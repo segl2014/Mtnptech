@@ -1,0 +1,44 @@
+<!----------------- 5. Write a program find the cube of a number. ---------------------------->
+<!DOCTYPE html>
+<html lang="eg">
+    <!--------------------------  Head Section ------------------------------->
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Conpatiblr" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+        <title> Cube-Number </title>
+        <h2> Find the cube of a number </h2>
+        <!-------------------------- Javascript in Head Section ------------------------------->  
+        <script type="text/javascript">
+            
+            function cube()
+            {
+                var  num, cube ;                                              
+                num = Number(document.getElementById("input1").value);
+                
+                (cube = num * num * num )
+                    
+                        window.alert(cube+" Cube of number");
+                    
+            }
+        </script> 
+        <!-------------------------- End Javascript in Head Section ----------------------------> 
+    <head> 
+     <!----------------------------------- End Head Section ------------------------------------>  
+    <body>
+          <!----------------------------------- Body Section ------------------------------------> 
+          
+          <label for="num"> Please Choose a numbers:</label>
+
+            <select name="number" id="input1" onkeyup= "showDate()" placeholder="Cube of number" >
+            <option value="3"> 3 </option>
+            <option value="5"> 5 </option>
+            <option value="7"> 7 </option>
+            <option value="9"> 9 </option>
+            </select>
+
+         <button onclick="cube()">OK</button>
+    </body>  
+        <!----------------------------------- End Body Section ----------------------------------->  
+</html>        
+ <!------------------------------------------- End  -----------------------------------------------> 

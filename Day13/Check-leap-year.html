@@ -1,0 +1,36 @@
+<!------------------     4. Check Leap year or Not    ------------------------>
+<!DOCTYPE html>
+<html lang="eg">
+    <!--------------------------  Head Section ------------------------------->
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Conpatiblr" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+        <title> Check-Leap-Year </title>
+        <h2> Cheack Leap Year </h2>
+        <!-------------------------- Javascript in Head Section ------------------------------->
+        <script type="text/javascript">
+
+            // javascript program to check
+            // for a leap year
+                function checkYear(year)
+                {
+                
+                    // Return true if year is a multiple
+                    // of 4 and not multiple of 100.
+                    // OR year is multiple of 400.
+                    return (((year % 4 == 0) && (year % 100 != 0)) || (year % 400 == 0));
+                }
+            
+                // Driver method
+                var year1 = 2016, year2 = 2018;  
+                 //2016
+                document.write(checkYear(2016) ? "<b> 2016 is a Leap Year </b> <br>" : "<b> 2016 is Not a Leap Year </b> <br>");
+                 //2018
+                document.write(checkYear(2018) ? "<b> 2018 is a Leap Year </b> <br>" : "<b> 2018 is Not a Leap Year </b> <br>");
+            
+        </script> 
+        <!-------------------------- End Javascript in Head Section ------------------------------->
+    </head>
+<!-------------------------------------  End Head Section   --------------------------------------->
+</html>

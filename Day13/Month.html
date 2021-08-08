@@ -1,0 +1,49 @@
+<!----------------- 13. Write a program to show the number of days in a month and the months name. ---------------------------->
+<!DOCTYPE html>
+<html lang="eg">
+    <!--------------------------  Head Section ------------------------------->
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Conpatiblr" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+        <title> Months </title>
+        <h2> Show the number of days in a month and the months name.  </h2>
+        <!-------------------------- Javascript in Head Section ------------------------------->  
+        <script type="text/javascript">
+            
+            function month()
+            {
+                var  month;                                                 
+                month = Number(document.getElementById("input1").value);
+                
+                if (month ==1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10 || month == 12)
+                    {
+                        window.alert(month + " There are 31 Days in this Month ");
+                    }
+                else if (month == 4 || month == 6 || month == 9 || month == 11)
+                    {
+                        window.alert( month + " There are 30 Days in this Month "); 
+                    } 
+                else if (month == 2)
+                    {
+                        window.alert(month+" There are 28 or 29 Days in this Month ");
+                    }  
+                else
+                    {
+                        window.alert( "Enter Valid Number between 1 to 12 ");
+                    }         
+            }
+        </script> 
+        <!-------------------------- End Javascript in Head Section ----------------------------> 
+    <head> 
+     <!----------------------------------- End Head Section ------------------------------------>  
+     <body>
+          <!----------------------------------- Body Section ------------------------------------> 
+         <label> Please Enter the month number 1 to 12 : </label> 
+         <input type= "number" id="input1"  onkeyup= "showDate()" placeholder= " 10 ">
+
+         <button onclick="month()">OK</button>
+     </body>  
+        <!----------------------------------- End Body Section ----------------------------------->  
+</html>        
+ <!------------------------------------------- End  -----------------------------------------------> 

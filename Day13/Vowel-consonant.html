@@ -1,0 +1,48 @@
+<!----------------- 12. Write a program to check whether a character is Vowel or Consonant. ---------------------------->
+<!DOCTYPE html>
+<html lang="eg">
+    <!--------------------------  Head Section ------------------------------->
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Conpatiblr" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+        <title> Character-vowel </title>
+        <h2> check whether a character is Vowel or Consonant  </h2>
+        <!-------------------------- Javascript in Head Section ------------------------------->  
+        <script type="text/javascript">
+            
+            function character()
+            {
+             
+            var ch;    
+            ch = document.getElementById("char").value;
+            if(ch)
+            {
+                temp = document.getElementById("resPara");
+                temp.style.display = "block";
+                if((ch>='a' && ch<='z') || (ch>='A' && ch<='Z'))
+                {
+                if(ch=='a' || ch=='e' || ch=='i' || ch=='o' || ch=='u')
+                    document.getElementById("res").innerHTML = "a Vowel";
+                else if(ch=='A' || ch=='E' || ch=='I' || ch=='O' || ch=='U')
+                    document.getElementById("res").innerHTML = "a Vowel";
+                else
+                    document.getElementById("res").innerHTML = "a Consonant";
+                }
+                else
+                document.getElementById("res").innerHTML = "neither Vowel nor Consonant";
+            }
+            }
+            
+        </script> 
+        <!-------------------------- End Javascript in Head Section ----------------------------> 
+    <head> 
+     <!----------------------------------- End Head Section ------------------------------------>  
+     <body>
+          <!----------------------------------- Body Section ------------------------------------> 
+          <p>Enter the Character: <input id="char" placeholder= " h " ><button onclick="character()">Check</button></p>
+          <p id="resPara" style="display:none;">It is <span id="res"></span></p>
+     </body>  
+        <!----------------------------------- End Body Section ----------------------------------->  
+</html>        
+ <!------------------------------------------- End  -----------------------------------------------> 
