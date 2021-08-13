@@ -1,0 +1,549 @@
+<!--
+=========================================================
+Dashboard 
+=========================================================
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
+  <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>
+    Material Dashboard by Creative Tim
+  </title>
+  <meta content='width=device-width, initial-scale=1.0, shrink-to-fit=no' name='viewport' />
+  <!--     Fonts and icons     -->
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+ 
+  <!-- CSS Files -->
+  <link href="../assets/css/material-dashboard.css?v=2.1.2" rel="stylesheet" />
+  <!-- CSS Just for demo purpose, don't include it in your project -->
+  <link href="../assets/demo/demo.css" rel="stylesheet" />
+</head>
+
+<body class="">
+  <div class="wrapper ">
+    <div class="sidebar" data-color="purple" data-background-color="white" data-image="../assets/img/sidebar-1.jpg">
+       <div class="logo"><a href="http://www.creative-tim.com" class="simple-text logo-normal">
+          <b> Pooja Limbola </b>
+        </a></div>
+      <div class="sidebar-wrapper">
+        <ul class="nav">
+          <li class="nav-item  ">
+            <a class="nav-link" href="index.html">
+              <i class="material-icons">dashboard</i>
+              <p>Dashboard</p>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href=" ">
+              <i class="material-icons">person</i>
+              <p>User Profile</p>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href=" ">
+              <i class="material-icons">person</i>
+              <p>logout</p>
+            </a>
+          </li>
+         </ul>
+      </div>
+    </div>
+    <div class="main-panel">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top ">
+        <div class="container-fluid">
+          <div class="navbar-wrapper">
+            <a class="navbar-brand" href="javascript:;">Segl2014</a>
+          </div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="navbar-toggler-icon icon-bar"></span>
+            <span class="navbar-toggler-icon icon-bar"></span>
+            <span class="navbar-toggler-icon icon-bar"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end">
+           <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="javascript:;">
+                  <i class="material-icons">dashboard</i>
+                  <p class="d-lg-none d-md-block">
+                    Stats
+                  </p>
+                </a>
+              </li>
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="javascript:;" id="navbarDropdownProfile" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <i class="material-icons">person</i> Account </a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownProfile">
+                  <a class="dropdown-item" href="#">Profile</a>
+                  <a class="dropdown-item" href="#">Updates</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Log out</a>
+                </div>
+              </li>
+              
+             <!--- <li class="nav-item ">
+                <a class="nav-link" href=" "><i class="material-icons">person</i>SIGN IN </a>
+              <li class="nav-item ">
+              <a class="nav-link" href=""><i class="material-icons">person</i> SIGN UP <span class="sr-only"></span></a></a>
+              </li>  -->
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- End Navbar -->
+      <div class="content">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="card card-stats" id="card">
+                <div class="card-header card-header-info card-header-icon">
+                  <div class="card-icon">
+                    <i class="fab fa-github"></i>
+                  </div>
+                  <p class="card-category"> <a href="https://github.com/segl2014/Mtnptech.git" id= "card-1">Used Space</a></p>
+                  <h3 class="card-title"> GitHub </h3>
+                </div>
+                <div class="card-footer">
+                  <div class="stats">
+                    <i class="material-icons">update</i> Just Updated
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="card card-stats" id="card">
+                <div class="card-header card-header-info card-header-icon">
+                  <div class="card-icon">
+                    <i class="fab fa-linkedin"></i>
+                  </div>
+                  <p class="card-category"> <a href="https://www.linkedin.com/in/pooja-limbola-2b915b190/" id= "card-1">Used Space</a></p>
+                  <h3 class="card-title">Linkedin</h3>
+                </div>
+                <div class="card-footer">
+                  <div class="stats">
+                    <i class="material-icons">update</i> Just Updated
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="card card-stats" id="card">
+                <div class="card-header card-header-info card-header-icon">
+                  <div class="card-icon">
+                    <i class="fab fa-google-drive"></i>
+                  </div>
+                  <p class="card-category"> <a href="https://drive.google.com/drive/folders/1MsV9CGZ4hJ66FIaGNw4OFhrAsijHKnsL?usp=sharing" id= "card-1">Used Space</a></p>
+                  <h3 class="card-title">Drive</h3>
+                </div>
+                <div class="card-footer">
+                  <div class="stats">
+                    <i class="material-icons">update</i> Just Updated
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="card card-stats" id="card"> 
+                <div class="card-header card-header-info card-header-icon">
+                  <div class="card-icon">
+                    <i class="fab fa-google-plus-square"></i>
+                  </div>
+                  <p class="card-category"> <a href="https://docs.google.com/spreadsheets/d/1J9u7h03H6Obwm-zUpupC5cfEqN_LmNRtH76FnRPeHos/edit#gid=964410681" id= "card-1">Used Space</a></p> 
+                  <h3 class="card-title">Sheet</h3>
+                </div>
+                <div class="card-footer">
+                  <div class="stats">
+                    <i class="material-icons">update</i> Just Updated
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+            <div class="col-md-12">
+              <div class="card" id="card">
+                <div class="card-header card-header-primary">
+                  <h4 class="card-title ">Assignments Table</h4>
+                  <p class="card-category"> Update</p>
+                </div>
+                <div class="card-body">
+                  <div class="table-responsive">
+                    <table class="table">
+                      <thead class=" text-primary">
+                        <th>
+                          ID
+                        </th>
+                        <th>
+                           Project Name
+                        </th>
+                    
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>
+                            1
+                          </td>
+                          <td>
+                            Frontend Language
+                          </td>
+                          <td>
+                            <div class="col-lg-4 col-md-6 col-sm-12">
+                              <div class="card">
+                                  
+                                  <div class="card-body" >
+                                      <h6 class="card-title text-center"> HTML </h6>
+                                      <p class="card-text"> 1. Write a Program in School Admission form and Reilways Reservation/ Cancellation Requisition form. </p>
+                                        <button type="button" class="btn btn-primary"><a href="http://training.mtnptech.com/poojalimbola/Mtnptech/Day1/School-Form.html" class="card-a"> Day1</button> 
+                                       
+                                  </div> 
+                              </div> 
+                            </div>
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td>
+                            2
+                          </td>
+                          <td>
+                            Frontend Language
+                          </td>
+                          <td>
+                            <div class="col-lg-4 col-md-6 col-sm-12">
+                              <div class="card">
+                                  
+                                  <div class="card-body" >
+                                      <h6 class="card-title text-center"> HTML </h6>
+                                      <p class="card-text"> 2. Write a program in profile update page in HTML code. </p>
+                                      <button type="button" class="btn btn-primary"><a href="http://training.mtnptech.com/poojalimbola/Mtnptech/Day2/Profile-Page.html" class="card-a"> Day2</button> 
+                                          
+                                  </div> 
+                              </div> 
+                            </div>
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td>
+                            3
+                          </td>
+                          <td>
+                            Frontend Language
+                          </td>
+                          <td>
+                            <div class="col-lg-4 col-md-6 col-sm-12">
+                              <div class="card">
+                                  
+                                  <div class="card-body" >
+                                      <h6 class="card-title text-center"> HTML, CSS </h6>
+                                      <p class="card-text"> 3.  Write a Program in Responsive Web Design Pages. </p>
+                                      <button type="button" class="btn btn-primary"><a href="http://training.mtnptech.com/poojalimbola/Mtnptech/Day3/Responsive-web-designpage.html" class="card-a"> Day3</button>  
+                                          
+                                  </div> 
+                              </div> 
+                            </div>
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td>
+                            4
+                          </td>
+                          <td>
+                            Frontend Language
+                          </td>
+                          <td>
+                            <div class="col-lg-4 col-md-6 col-sm-12">
+                              <div class="card">
+                                  
+                                  <div class="card-body" >
+                                      <h6 class="card-title text-center"> HTML, CSS </h6>
+                                      <p class="card-text"> 4. Write a Program in  Create Dashboard.  </p>
+                                      <button type="button" class="btn btn-primary"><a href="http://training.mtnptech.com/poojalimbola/Mtnptech/Day4/dashboard.html" class="card-a"> Day4</button> 
+                                          
+                                  </div> 
+                              </div> 
+                            </div>
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td>
+                            5
+                          </td>
+                          <td>
+                            Frontend Language
+                          </td>
+                          <td>
+                            <div class="col-lg-4 col-md-6 col-sm-12">
+                              <div class="card">
+                                  
+                                  <div class="card-body" >
+                                      <h6 class="card-title text-center"> HTML, CSS </h6>
+                                      <p class="card-text"> 5. Coronavirus (COVID-19) Statistics Web Design Pages </p>
+                                      <button type="button" class="btn btn-primary"><a href="http://training.mtnptech.com/poojalimbola/Mtnptech/Day5-6-7/CSS-transitions.html" class="card-a"> Day5-6-7</button>  
+                                          
+                                  </div> 
+                              </div> 
+                            </div>
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td>
+                            6
+                          </td>
+                          <td>
+                            Framework
+                          </td>
+                          <td>
+                            <div class="col-lg-4 col-md-6 col-sm-12">
+                              <div class="card">
+                                  
+                                  <div class="card-body" >
+                                      <h6 class="card-title text-center"> Bootstrap </h6>
+                                      <p class="card-text"> 6.  Write a Program in Login-Signup Form </p>
+                                      <button type="button" class="btn btn-primary"><a href="http://training.mtnptech.com/poojalimbola/Mtnptech/Day8/signin.html" class="card-a"> Day8</button> 
+                                          
+                                  </div> 
+                              </div> 
+                            </div>
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td>
+                            7
+                          </td>
+                          <td>
+                            Framework
+                          </td>
+                          <td>
+                            <div class="col-lg-4 col-md-6 col-sm-12">
+                              <div class="card">
+                                  
+                                  <div class="card-body" >
+                                      <h6 class="card-title text-center"> Bootstrap </h6>
+                                      <p class="card-text"> 7. Experiences The Best Culture (Web Design)</p>
+                                      <button type="button" class="btn btn-primary"><a href="http://training.mtnptech.com/poojalimbola/Mtnptech/Day9/" class="card-a"> Day9</button>   
+                                          
+                                  </div> 
+                              </div> 
+                            </div>
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td>
+                            8
+                          </td>
+                          <td>
+                            Framework
+                          </td>
+                          <td>
+                            <div class="col-lg-4 col-md-6 col-sm-12">
+                              <div class="card">
+                                  
+                                  <div class="card-body" >
+                                      <h6 class="card-title text-center"> Bootstrap </h6>
+                                      <p class="card-text"> 8. Art & Culture of Madhya Pradesh (Login -Signup Form, Card, Indexpage)</p>
+                                      <button type="button" class="btn btn-primary"><a href="http://training.mtnptech.com/poojalimbola/Mtnptech/Day10/" class="card-a"> Day10</button> 
+                                          
+                                  </div> 
+                              </div> 
+                            </div>
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td>
+                            9
+                          </td>
+                          <td>
+                            Framework
+                          </td>
+                          <td>
+                            <div class="col-lg-4 col-md-6 col-sm-12">
+                              <div class="card">
+                                  
+                                  <div class="card-body" >
+                                      <h6 class="card-title text-center"> Bootstrap </h6>
+                                      <p class="card-text"> 9. Art & Culture of Madhya Pradesh (Header-Footer,Model, Feedback - Complete)</p>
+                                      <button type="button" class="btn btn-primary"><a href="http://training.mtnptech.com/poojalimbola/Mtnptech/Day11/" class="card-a"> Day11</button> 
+                                          
+                                  </div> 
+                              </div> 
+                            </div>
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td>
+                            10
+                          </td>
+                          <td>
+                            Framework
+                          </td>
+                          <td>
+                            <div class="col-lg-4 col-md-6 col-sm-12">
+                              <div class="card">
+                                  
+                                  <div class="card-body" >
+                                      <h6 class="card-title text-center"> Bootstrap </h6>
+                                      <p class="card-text"> 10. Fashion Online Shop (E-Commerce Website Design)</p>
+                                      <button type="button" class="btn btn-primary"><a href="http://training.mtnptech.com/poojalimbola/Mtnptech/Day12/homepage.html" class="card-a"> Day12</button>  
+                                          
+                                  </div> 
+                              </div> 
+                            </div>
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td>
+                            11
+                          </td>
+                          <td>
+                            Frontend Language
+                          </td>
+                          <td>
+                            <div class="col-lg-4 col-md-6 col-sm-12">
+                              <div class="card">
+                                  
+                                  <div class="card-body" >
+                                      <h6 class="card-title text-center"> Javascript </h6>
+                                      <p class="card-text"> 11. Javascript Basic Programms 
+                                        <ul>
+                                          <li value="1">Write a Program to check whether Number is Even or Odd <a href="http://training.mtnptech.com/poojalimbola/Mtnptech/Day13/Odd-even-values.html" id= "card-2">output</a>  </li>
+                                          <li> Write a Program to Find Largest Number among three numbers <a href="http://training.mtnptech.com/poojalimbola/Mtnptech/Day13/Largest-number.html" id= "card-2">output</a>   </li>
+                                          <li> Write a Program to Check Leap year or Not <a href="http://training.mtnptech.com/poojalimbola/Mtnptech/Day13/Check-leap-year.html" id= "card-2">output</a>   </li>
+                                          <li> Write a program find the cube of a number. <a href="http://training.mtnptech.com/poojalimbola/Mtnptech/Day13/Find-cube-number.html" id= "card-2">output</a>  </li>
+                                          <li> Write a program to find the volume of the Cube input length of one side. <a href="http://training.mtnptech.com/poojalimbola/Mtnptech/Day13/Cube-number.html" id= "card-2">output</a>  </li>
+                                          <li> Write a program to Find Smallest Number among three numbers <a href="http://training.mtnptech.com/poojalimbola/Mtnptech/Day13/Smallest-number.html" id= "card-2">output</a>  </li>
+                                          <li> Write a program to find the area of a circle. Input is the radius. <a href="http://training.mtnptech.com/poojalimbola/Mtnptech/Day13/Area-of-circle.html" id= "card-2">output</a>  </li>
+                                          <li> Write a program to find the square input length of one side. <a href="http://training.mtnptech.com/poojalimbola/Mtnptech/Day13/Square-input-length.html" id= "card-2">output</a>  </li>
+                                          <li> Write a program to find the volume of the Cube input length of one side. <a href="http://training.mtnptech.com/poojalimbola/Mtnptech/Day13/Cube-number.html" id= "card-2">output</a>  </li>
+                                          <li> Write a program to find the volume of the spare input length of the radius. <a href="http://training.mtnptech.com/poojalimbola/Mtnptech/Day13/Volume-of-cylinder.html" id= "card-2">output</a>  </li>
+                                          <li> Write a program to check whether a character is Vowel or Consonant. <a href="http://training.mtnptech.com/poojalimbola/Mtnptech/Day13/Volume-of-cylinder.html" id= "card-2">output</a>  </li>
+                                          <li> Write a program to show the number of days in a month and the months name. <a href="http://training.mtnptech.com/poojalimbola/Mtnptech/Day13/Month.html" id= "card-2">output</a>   </li>
+                                        </ul>
+                                      </p>
+                                      <button type="button" class="btn btn-primary"><a href="http://training.mtnptech.com/poojalimbola/Mtnptech/Day13/" class="card-a"> Day13</button> 
+                                          
+                                  </div> 
+                              </div> 
+                            </div>
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td>
+                            12
+                          </td>
+                          <td>
+                            Frontend Language
+                          </td>
+                          <td>
+                            <div class="col-lg-4 col-md-6 col-sm-12">
+                              <div class="card">
+                                  
+                                  <div class="card-body" >
+                                      <h6 class="card-title text-center"> Javascript </h6>
+                                      <p class="card-text"> 12. Phonepixels (Website Design) </p>
+                                      <button type="button" class="btn btn-primary"><a href="http://training.mtnptech.com/poojalimbola/Mtnptech/Day14/" class="card-a"> Day14</button> 
+                                          
+                                  </div> 
+                              </div> 
+                            </div>
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td>
+                            13
+                          </td>
+                          <td>
+                            Frontend Language, Framework
+                          </td>
+                          <td>
+                            <div class="col-lg-4 col-md-6 col-sm-12">
+                              <div class="card">
+                                  
+                                  <div class="card-body" >
+                                      <h6 class="card-title text-center"> HTML, CSS, Bootstrap </h6>
+                                      <p class="card-text"> 13. Dashboard (Website Design) </p>
+                                      <button type="button" class="btn btn-primary"><a href="http://training.mtnptech.com/poojalimbola/Mtnptech/Day15/" class="card-a"> Day15</button> 
+                                          
+                                  </div> 
+                              </div> 
+                            </div>
+                          </td>
+                        </tr>
+
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+  <!--   Core JS Files   -->
+  <script src="../assets/js/core/jquery.min.js"></script>
+  <script src="../assets/js/core/popper.min.js"></script>
+  <script src="../assets/js/core/bootstrap-material-design.min.js"></script>
+  <script src="../assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
+  <!-- Plugin for the momentJs  -->
+  <script src="../assets/js/plugins/moment.min.js"></script>
+  <!--  Plugin for Sweet Alert -->
+  <script src="../assets/js/plugins/sweetalert2.js"></script>
+  <!-- Forms Validations Plugin -->
+  <script src="../assets/js/plugins/jquery.validate.min.js"></script>
+  <!-- Plugin for the Wizard, full documentation here: https://github.com/VinceG/twitter-bootstrap-wizard -->
+  <script src="../assets/js/plugins/jquery.bootstrap-wizard.js"></script>
+  <!--	Plugin for Select, full documentation here: http://silviomoreto.github.io/bootstrap-select -->
+  <script src="../assets/js/plugins/bootstrap-selectpicker.js"></script>
+  <!--  Plugin for the DateTimePicker, full documentation here: https://eonasdan.github.io/bootstrap-datetimepicker/ -->
+  <script src="../assets/js/plugins/bootstrap-datetimepicker.min.js"></script>
+  <!--  DataTables.net Plugin, full documentation here: https://datatables.net/  -->
+  <script src="../assets/js/plugins/jquery.dataTables.min.js"></script>
+  <!--	Plugin for Tags, full documentation here: https://github.com/bootstrap-tagsinput/bootstrap-tagsinputs  -->
+  <script src="../assets/js/plugins/bootstrap-tagsinput.js"></script>
+  <!-- Plugin for Fileupload, full documentation here: http://www.jasny.net/bootstrap/javascript/#fileinput -->
+  <script src="../assets/js/plugins/jasny-bootstrap.min.js"></script>
+  <!--  Full Calendar Plugin, full documentation here: https://github.com/fullcalendar/fullcalendar    -->
+  <script src="../assets/js/plugins/fullcalendar.min.js"></script>
+  <!-- Vector Map plugin, full documentation here: http://jvectormap.com/documentation/ -->
+  <script src="../assets/js/plugins/jquery-jvectormap.js"></script>
+  <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+  <script src="../assets/js/plugins/nouislider.min.js"></script>
+  <!-- Include a polyfill for ES6 Promises (optional) for IE11, UC Browser and Android browser support SweetAlert -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/core-js/2.4.1/core.js"></script>
+  <!-- Library for adding dinamically elements -->
+  <script src="../assets/js/plugins/arrive.min.js"></script>
+  <!--  Google Maps Plugin    -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+  <!-- Chartist JS -->
+  <script src="../assets/js/plugins/chartist.min.js"></script>
+  <!--  Notifications Plugin    -->
+  <script src="../assets/js/plugins/bootstrap-notify.js"></script>
+  <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->
+  <script src="../assets/js/material-dashboard.js?v=2.1.2" type="text/javascript"></script>
+  <!-- Material Dashboard DEMO methods, don't include it in your project! -->
+  <script src="../assets/demo/demo.js"></script>
+  
+</body>
+
+</html>
