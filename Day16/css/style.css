@@ -1,0 +1,137 @@
+/******************************* SignIn Form ***********************************/
+#container-1 {
+    width: 60%;
+    border-style: solid;
+    border-color: darkgray;
+    border-radius: 1%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 1%;
+}
+
+div#container-2.container {
+    text-align: center;
+}
+
+div#container-3.container {
+    margin-top: 6%;
+    text-align: center;
+}
+
+.div-1 {
+    text-align: center;
+}
+
+.div-2 {
+    margin-top: 5%;
+    margin-left: 1%;
+}
+
+.div-3 {
+    margin-top: 2%;
+}
+
+input#exampleFormControlInput1.form-control {
+    text-align: center;
+    width: 100%;
+}
+
+a#dropdownMenuLink.btn.btn-primary {
+    background-color: white;
+    color: black;
+    border-color: white;
+}
+
+button.btn.btn-primary {
+    float: right;
+    background-color: #0d6efd;
+}
+
+strong {
+    text-decoration: none;
+}
+
+#strong-1 {
+    font-weight: bolder;
+    margin-top: 1%;
+    padding-right: 20%;
+}
+
+#a-1 {
+    color: #0d6efd;
+    text-decoration: none;
+    padding-top: 5%;
+}
+
+#a-2 {
+    padding-left: 5%;
+    padding-right: 5%;
+    text-decoration: none;
+}
+
+#a-2:hover {
+    background-color: #0d6efd;;
+    color: white;
+}
+
+#a-3 {
+     color: white;
+     text-decoration: none;
+}
+
+form {
+    width: auto;
+    text-align: center;
+}
+
+div.form-control {
+    border: 1px solid blue;
+}
+
+input#exampleFormControlInput1.form-control {
+    border: 1px solid darkgray;
+}
+/******************************* End SignIn Form ********************************/
+
+/******************************* End SignUp Form ********************************/
+#strong-2 {
+    font-weight: bolder;
+    margin-top: 1%;
+    padding-right: 57%;
+}
+
+#strong-3 {
+    font-weight: bolder;
+    padding-right: 30%;
+    margin-top: 1%;
+}
+
+.row {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+label {
+    float: left;
+}
+
+label.form-check-label {
+    margin-top: 2%;
+}
+
+#container-3{
+    margin-top: 5%;
+}
+
+#container-4 {
+    margin-top: 5%;
+}
+
+#div-4 {
+    width: 70%;
+    margin-top: 2%;
+}
+
+/******************************* End SignUp Form ********************************/
+
+
